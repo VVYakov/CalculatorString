@@ -2,11 +2,8 @@ import java.util.Scanner;
 
 public class CalcString {
     static String input;
-    private static Integer integer;
-    private static Scanner scanner;
 
     public static void main(String[] args) throws Exception {
-        String total;
         System.out.println("Введите Ваше значение");
         Scanner scanner = new Scanner(System.in);
         input = scanner.nextLine();
